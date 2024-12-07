@@ -1,0 +1,11 @@
+__pycache__
+.vscode/
+/datasets/
+/data/
+/0_code_repo/
+/0_train_results/
+/encoded_states/
+/encoded_states_epoch_20/
+/huatu/
+/shell_backup/
+/mnist_data/

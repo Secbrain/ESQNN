@@ -1,0 +1,13 @@
+res_root: '../quantum_encoding_data/'
+train_model_dir: 'data_0501_state_new_cuda_test'
+encoded_states_dir_name: 'encoded_states_test'
+enc_cls_blocks: [[1,2], ]
+models_list: 'classify_circ_dict'
+datasets: ["mnist",]
+enc_layers: ['amplitude', 'state_new', 'phase', 'general', 'multiphase', 'multiphase_z', 'IQP', 'IQP_X', "IQP_Y"]
+
+
+seed: 42
+optimizer:
+  # lr: 5e-3
+  lr: 1e-2
